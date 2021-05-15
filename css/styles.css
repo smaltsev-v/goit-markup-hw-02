@@ -1,0 +1,237 @@
+/* основонйо текст #757575 */
+/* вторичный цвет color: #757575; */
+/* белый цвет #FFFFFF */
+/* акцент #2196F3 */
+/* вторичный фон #F5F4FA */
+/* background кнопок и вложений #f5f4fa*/
+:root {
+  --primaty-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --portfolio-secondary-color: #f5f4fa;
+  --background-color-secondary: #2f303a;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* body */
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+  color: var(--primaty-text-color);
+  background-color: var(--primary-bg-color);
+  height: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.list {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+}
+/* top line */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+/* logo */
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-title {
+  color: var(--title-text-color);
+  font-family: Raleway, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+/* site-nav */
+.site-nav {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+}
+.site-nav :hover,
+.site-nav :focus {
+  color: var(--accent-color);
+}
+.site-nav.link.currnet {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+/* contact */
+.contact {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contact :hover,
+.contact :focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+  text-align: center;
+  background-color: var(--background-color-secondary);
+}
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--primary-bg-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.15;
+  margin-bottom: 30px;
+}
+
+/* section */
+.section {
+  padding-top: 94px;
+  padding-bottom: 106px;
+}
+.section-title {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+}
+/* features */
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+.feature-list {
+  margin-top: 0;
+  margin-bottom: 94px;
+}
+.title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: bold;
+}
+.feature-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: normal;
+}
+.team {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-title {
+  color: var(--primaty-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* button */
+.button-primary {
+  border-radius: 6px;
+  border: 0px solid transparent;
+  padding: 10px 32px;
+  min-width: 130px;
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+}
+/* portfolio */
+
+.button-filters:hover,
+.button-filters:focus {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
+.button-filters {
+  color: var(--title-text-color);
+  background-color: var(--portfolio-secondary-color);
+  text-align: center;
+  border: 0px solid transparent;
+  border-radius: 4px;
+}
+
+/* work */
+.work {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.work-title {
+  color: var(--primaty-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+
+/* footer */
+.footer {
+  background-color: var(--background-color-secondary);
+  width: 1200px;
+}
+.logo-title-footer {
+  color: var(--primary-bg-color);
+  font-family: Raleway, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.contact-footer :hover,
+.contact-footer :focus {
+  color: var(--accent-color);
+}
+
+.contact-footer {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* address */
+.address {
+  color: var(--primary-bg-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
